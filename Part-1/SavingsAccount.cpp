@@ -1,3 +1,4 @@
+
 #include "SavingsAccount.h"
 
 using namespace std;
@@ -6,6 +7,7 @@ using namespace std;
 SavingsAccount::SavingsAccount( double initialBalance, double rate ) : Account( initialBalance ) 
 {
 	// your code
+    interestRate = rate;
 }
 
 double SavingsAccount::calculateInterest() {
